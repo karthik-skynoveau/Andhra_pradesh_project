@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    background-color: #95b2ff;
+}
+.contanier-1{
+    background-color: white;
+    width: 90%;
+    height: 80%;
+    margin: auto;
+    display:flex;
+    flex-direction: column;
+    border-radius:5px;
+    margin-top:10px;
+}
+p{
+    color: #12022f;
+    
+}
+.blog-text p{
+    color: #12022f;
+    font-size: 15px;
+    margin-left: 10px;
+}
+.blog-text-1 p{
+    color: #12022f;
+    font-size: 28px;
+    margin-left: 10px;
+    font-weight: 600;
+}
+.blocked-img-2{
+    display:none;
+}
+.blocked-img-4{
+    display:none;
+}
+ 
+img{
+    width: 100%;
+     padding-right: 10px;
+     padding-top:10px;
+    
+}
+.main-imageContainer-1{
+    display: flex;  
+    
+}
+.imageContainer-1{
+    position:relative; 
+    padding-left:10px;
+}
+.text-1{
+    position: absolute;
+    top:0px;
+    color: white;
+    font-size: 22px;
+    left: 10px;
+}
+.button{
+    position: absolute;
+    bottom:10px;
+    left:10px;
+    color:white;
+    border:1px solid white;
+    padding:1px 5px;
+    border-radius:2px;
+}
+ 
+.imageContainer-2{
+    display: flex;
+}
+.imageContainer-2-one{
+    position: relative;
+}
+.text-2{
+    position: absolute;
+    top:0px;
+    color: white;
+    font-size: 22px;
+    left: 10px;
+}
+.imageContainer-2-two{
+    position: relative;
+}
+.text-3{
+    position: absolute;
+    top:0px;
+    color: white;
+    font-size: 22px;
+    left: 10px;
+}
+.text-4{
+    position: absolute;
+    top:0px;
+    color: white;
+    font-size: 22px;
+    left: 10px;
+}
+.imageContainer-3-two{
+    position:relative;
+}
+.imageContainer-3-one{
+    padding-left:10px; 
+}
+.text-5{
+    position: absolute;
+    top:0px;
+    color: white;
+    font-size: 22px;
+    left: 10px;
+}
+.imageContainer-4{
+    position:relative;
+}
+.text-6{
+    position: absolute;
+    top:0px;
+    color: white;
+    font-size: 22px;
+    left: 10px;
+}
+
+
+
+.main-imageContainer-2{
+    display: flex;
+}
+.imageContainer-3{
+    display: flex;
+}
+.imageContainer-3-one{
+    position:relative;
+}
+.text-4{
+    position: absolute;
+    top:0px;
+    color: white;
+    font-size: 22px;
+    left: 10px;
+}
+.txt{
+     
+   margin-left:10px;
+}
+ 
+@media  (max-width:1200px){
+    .blog-text {
+       display: flex;
+       justify-content: center;       
+    }
+    .blog-text-1 p{
+        display: flex;
+       justify-content: center;  
+    }
+    .contanier-1{
+        background-color: white;
+        width: 90%;
+        height: 80%;
+        margin: auto;
+        display:flex;
+        flex-direction: column;
+        border-radius:5px;
+        margin-top:10px;
+    }
+    p{
+        color: #12022f;
+        
+    }
+    .blog-text p{
+        color: #12022f;
+        font-size: 15px;
+        margin-left: 10px;
+    }
+    .blog-text-1 p{
+        color: #12022f;
+        font-size: 28px;
+        margin-left: 10px;
+        font-weight: 600;
+    }
+    .blocked-img-2{
+        display:none;
+    }
+    .blocked-img-4{
+        display:none;
+    }
+     
+    img{
+        width: 100%;
+         padding-right: 10px;
+         padding-top:10px;
+        
+    }
+    .main-imageContainer-1{
+        display: flex;  
+        
+    }
+    .imageContainer-1{
+        position:relative; 
+        padding-left:10px;
+    }
+    .text-1{
+        position: absolute;
+        top:0px;
+        color: white;
+        font-size: 22px;
+        left: 10px;
+    }
+    .button{
+        position: absolute;
+        bottom:10px;
+        left:10px;
+        color:white;
+        border:1px solid white;
+        padding:1px 5px;
+        border-radius:2px;
+    }
+     
+    .imageContainer-2{
+        display: flex;
+    }
+    .imageContainer-2-one{
+        position: relative;
+    }
+    .text-2{
+        position: absolute;
+        top:0px;
+        color: white;
+        font-size: 22px;
+        left: 10px;
+    }
+    .imageContainer-2-two{
+        position: relative;
+    }
+    .text-3{
+        position: absolute;
+        top:0px;
+        color: white;
+        font-size: 22px;
+        left: 10px;
+    }
+    .text-4{
+        position: absolute;
+        top:0px;
+        color: white;
+        font-size: 22px;
+        left: 10px;
+    }
+    .imageContainer-3-two{
+        position:relative;
+    }
+    .imageContainer-3-one{
+        padding-left:10px; 
+    }
+    .text-5{
+        position: absolute;
+        top:0px;
+        color: white;
+        font-size: 22px;
+        left: 10px;
+    }
+    .imageContainer-4{
+        position:relative;
+    }
+    .text-6{
+        position: absolute;
+        top:0px;
+        color: white;
+        font-size: 22px;
+        left: 10px;
+    }
+    
+    
+    
+    .main-imageContainer-2{
+        display: flex;
+    }
+    .imageContainer-3{
+        display: flex;
+    }
+    .imageContainer-3-one{
+        position:relative;
+    }
+    .text-4{
+        position: absolute;
+        top:0px;
+        color: white;
+        font-size: 22px;
+        left: 10px;
+    }
+    .txt{
+         
+       margin-left:10px;
+    }
+}
+
+@media (max-width:768px) {
+.main-imageContainer-1{
+    display: flex;
+    flex-direction: column;
+}  
+.imageContainer-2{
+    display: flex;
+    flex-direction: column;
+} 
+.blocked-img-1{
+    display:none;
+}
+.blocked-img-2{
+    display:block;
+}
+.main-imageContainer-2{
+    display: flex;
+    flex-direction: column;
+}  
+.imageContainer-3{
+    display: flex;
+    flex-direction: column;
+} 
+.blocked-img-3{
+    display:none;
+}
+.blocked-img-4{
+    display:block;
+}
+.button{
+    position: absolute;
+    bottom:10px;
+}
+img{
+    padding:15px;
+}
+.imageContainer-1{
+    position:relative; 
+    padding-left:0px;
+}
+.imageContainer-3-one{
+    padding-left:0px; 
+}
+.text-1,.text-2,.text-3,.text-4,.text-5,.text-6{
+   left:30px;
+   top:10px;
+   font-size: 25px;
+}
+.button{
+    left:30px;  
+    bottom: 20px;
+}
+ 
+ 
+    
+}
+
+ 
+
+  
+    </style>
+</head>
+ 
+
+<body>
+    <div class="contanier-1">
+        <div class="blog-text">
+            <p>BLOG</p>
+        </div>
+
+        <div class="blog-text-1">
+            <p>Popular Blog Feed</p>
+        </div>
+
+
+        <div class="main-imageContainer-1">
+            <div class="imageContainer-1">
+                <div class="text-container">
+                    <p class="text-1 txt">Marketing Strategies</p>
+                    <p class="button txt">
+                        know more
+                    </p>
+                </div>
+
+                <img class='blocked-img-1'
+                    src="https://assets.ccbp.in/frontend/intermediate-rwd/popular-blog-marketing-strategies-lg-bg.png"
+                    alt="image_1">
+                <img class='blocked-img-2'
+                    src="https://assets.ccbp.in/frontend/intermediate-rwd/popular-blog-marketing-strategies-sm-bg.png"
+                    alt="">
+
+
+            </div>
+
+            <div class="imageContainer-2">
+
+                <div class="imageContainer-2-one">
+                    <div class="text-container">
+                        <p class="text-2">Coffee</p>
+                        <p class="button">
+                            know more
+                        </p>
+                    </div>
+                     
+                    <img src="https://assets.ccbp.in/frontend/intermediate-rwd/popular-blog-coffee-bg.png" alt="">
+                </div>
+
+                <div class="imageContainer-2-two">
+                    <div class="text-container">
+                        <p class="text-3">Fruits</p>
+                        <p class="button btn-2">
+                            know more
+                        </p>
+                    </div>
+                     
+                    <img src="https://assets.ccbp.in/frontend/intermediate-rwd/popular-blog-fruits-bg.png" alt="">
+                </div>
+            </div>
+        </div>
+
+
+        <div class="main-imageContainer-2">
+            <div class="imageContainer-3">
+                <div class="imageContainer-3-one">
+                    <div class="text-container">
+                        <p class="text-4 txt">Nature</p>
+                        <p class="button txt">
+                            know more
+                        </p>
+                    </div>
+                     
+                    <img src="https://assets.ccbp.in/frontend/intermediate-rwd/popular-blog-nature-bg.png" alt="">
+                </div>
+
+                <div class="imageContainer-3-two">
+                    <div class="text-container">
+                        <p class="text-5">Interior</p>
+                        <p class="button btn-2">
+                            know more
+                        </p>
+                    </div>
+                     
+                    <img src="https://assets.ccbp.in/frontend/intermediate-rwd/popular-blog-interior-bg.png" alt="">
+                </div>
+            </div>
+
+            <div class="imageContainer-4">
+                <div class="text-container">
+                    <p class="text-6">laptop</p>
+                    <p class="button">
+                        know more
+                    </p>
+                </div>
+              
+                <img class='blocked-img-3'
+                    src="https://assets.ccbp.in/frontend/intermediate-rwd/popular-blog-laptop-lg-bg.png" alt="">
+                <img class='blocked-img-4'
+                    src="https://assets.ccbp.in/frontend/intermediate-rwd/popular-blog-laptop-sm-bg.png" alt="">
+            </div>
+        </div>
+
+    </div>
+    <div class="lastdiv">
+
+    </div>
+</body>
+
+</html>
